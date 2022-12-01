@@ -2,10 +2,18 @@
     text-align: center;
 }
 
+body{
+    background: #CCCCCC;
+}
+
 h1 {
     font-size: 40px
 }
 
 p {
     font-size: 20px;
+}
+
+strong{
+    color: #ee0d0d;
 }
