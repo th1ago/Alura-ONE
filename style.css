@@ -6,13 +6,16 @@ body{
     width: 100%;
 }
 
+.principal {
+    background: #CCCCCC;
+    padding: 30px;
+}
+
 h1 {
-    font-size: 40px;
     text-align: center;
 }
 
 p {
-    font-size: 20px;
     text-align: center;
 }
 
@@ -22,4 +25,20 @@ em strong{
 
 .itens {
     font-style: italic;
+}
+
+.beneficios {
+    background: #FFFFFF;
+    padding: 20px;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 20%;
+    margin-right: 15%;
+}
+
+.imgbeneficio{
+    width: 50%;
 }
