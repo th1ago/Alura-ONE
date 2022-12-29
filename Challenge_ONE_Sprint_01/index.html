@@ -8,17 +8,18 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="main">
+    <div id="alura">
         <img src="imagem/logo.png"> 
+    </div>
+    <div class="main">
         <form action="index.html">
-            <label for="fname">Digite seu texto</label>
-            <textarea name="texto" id="input" cols="30" rows="10"></textarea>
+            <label for="mensagem">Digite seu texto</label>
+            <textarea name="texto" id="mensagem" cols="30" rows="10"></textarea>
             <p>&copy; Apenas letras minusculas e sem acento</p>
             <button id="cripto" onclick="criptografa()">Criptografar</button>
             <button id="descripto" onclick="descriptografa()">Descriptografar </button>
         </form>
     </div>
-    
     <div class="card">
         <img src="imagem/search.png">
         <h2>Nenhuma mensagem encontrada</h2>

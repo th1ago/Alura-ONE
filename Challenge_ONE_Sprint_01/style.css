@@ -1,19 +1,22 @@
-.main{
-    display: block;
+.alura {
+    
 }
 .card {
+    display: block;
+    position: relative;
     text-align: center;
-    height: 944px;
-    width: 400px;
-    margin: 0 60%;
     box-sizing: border-box;
     border: 2px solid black;
-    border-radius: 10px;
+    height: 944px;
+    width: 400px;
+    left: 1000px;
+    top: 40px;
+    border-radius: 32px;
 }
 
-.card img, p, h2{
-    position: relative;
+.card p {
     top: 200px;
+    position: relative;
 }
 
 form {
@@ -32,7 +35,6 @@ form input{
     padding: 10px 15px;
     width: 50%;
 }
-
 
 footer {
     text-align: center;
