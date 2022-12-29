@@ -1,6 +1,11 @@
-.alura {
-    
+.main {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    top: 400px ;
+    left: 400px;
 }
+
 .card {
     display: block;
     position: relative;
