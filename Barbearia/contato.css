@@ -61,8 +61,20 @@ form label, form legend {
 
 .enviar {
     width: 40%;
+    padding: 15px 0;
+    background: orange;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s background;
+    cursor: pointer;
 }
 
+.enviar:hover {
+    background: purple;
+}
 
 footer {
     background: url("imagens/bg.jpg");
