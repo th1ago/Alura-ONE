@@ -1,7 +1,7 @@
-.main {
+.body {
     position: relative;
     width: 840px;
-    margin: auto;
+    margin: 15px 15px;
 }
 
 .card {
@@ -44,7 +44,7 @@ footer {
 }
 
 .btn {
-    width: 40%;
+    width: 30%;
     padding: 15px 0;
     background: rgb(105, 105, 189);
     color: white;
