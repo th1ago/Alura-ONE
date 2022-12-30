@@ -1,9 +1,7 @@
 .main {
     position: relative;
-    width: 200px;
-    height: 200px;
-    top: 400px ;
-    left: 400px;
+    width: 840px;
+    margin: auto;
 }
 
 .card {
@@ -43,4 +41,26 @@ form input{
 
 footer {
     text-align: center;
+}
+
+.btn {
+    width: 40%;
+    padding: 15px 0;
+    background: rgb(105, 105, 189);
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background: rgb(199, 75, 75);
+    transform: scale(1.1);
+}
+
+textarea {
+    border: none;
 }
