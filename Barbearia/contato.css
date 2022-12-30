@@ -59,6 +59,10 @@ form label, form legend {
     margin: 20px 0;
 }
 
+.enviar {
+    width: 40%;
+}
+
 
 footer {
     background: url("imagens/bg.jpg");
