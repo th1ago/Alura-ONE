@@ -71,6 +71,10 @@ form label {
     margin: 0 0 10px;
 }
 
+form {
+    margin: 40px 0;
+}
+
 form label, form p {
     display:block;
     font-size: 20px;
