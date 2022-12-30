@@ -30,10 +30,11 @@ nav a {
 
 nav a:hover{
     color: blueviolet;
+    text-decoration: underline;
 }
 
 main {
-    width: 90%;
+    width: 940px;
     margin: 0 auto;
 }
 
@@ -41,51 +42,10 @@ form {
     margin: 40px 0;
 }
 
-form label {
-    display: block;
-    font-size: 20px;
-    margin: 0 0 10px;
-}
-
-form input{
-    display: block;
-    margin: 0 0 10px;
-    padding: 10px 15px;
-    width: 50%;
-}
-
-footer {
-    background: url("imagens/bg.jpg");
-    text-align: center;
-    padding: 40px 0;
-}
-
-.copyright {
-    color: white;
-    font-size: 13px;
-}
-
-form label {
+form label, form legend {
     display:block;
     font-size: 20px;
     margin: 0 0 10px;
-}
-
-form {
-    margin: 40px 0;
-}
-
-form label, form p {
-    display:block;
-    font-size: 20px;
-    margin: 0 0 10px;
-}
-
-form input {
-    display: block;
-    margin: 0 0 20px;
-    padding: 10px 25px;
-    width: 50%;
 }
 
 .input-padrao {
@@ -97,4 +57,16 @@ form input {
 
 .checkbox {
     margin: 20px 0;
+}
+
+
+footer {
+    background: url("imagens/bg.jpg");
+    text-align: center;
+    padding: 40px 0;
+}
+
+.copyright {
+    color: white;
+    font-size: 13px;
 }
