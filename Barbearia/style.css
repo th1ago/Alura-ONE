@@ -10,10 +10,33 @@
     width: 100%;
 }
 
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+}
+
 .principal {
     background: #CCCCCC;
     padding: 30px;
 }
+
+.principal p {
+    margin: 0 0 1em;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.imgbeneficio {
+    width: 60%;
+}
+
 
 header{
     background-color: antiquewhite;
