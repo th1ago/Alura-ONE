@@ -3,6 +3,11 @@ header{
     padding: 20px 0;
 }
 
+main{
+    width: 940px;
+	margin: 0 auto;
+}
+
 .menu {
     position: relative;
     width: 940px;
