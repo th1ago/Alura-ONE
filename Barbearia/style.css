@@ -98,6 +98,10 @@ nav a:hover{
     font-weight: bold;
 }
 
+.itens::before {
+    content: "★";
+}
+
 .beneficios {
     background: #888888;
     padding: 3em 0;
