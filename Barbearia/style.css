@@ -15,6 +15,7 @@ body {
     font-size: 2em;
     margin: 0 0 1em;
     color: rgba(0,0,0,0.3);
+    text-shadow: 2px 2px #FF0000; 
  }
 
 .principal {
@@ -60,12 +61,13 @@ body {
 
 .imgbeneficio {
     width: 60%;
-    opacity: 0.5;
+    opacity: 1;
     transition: 400ms;
+    box-shadow: 10px 10px 10px 0 #000000;
 }
 
 .imgbeneficio:hover{
-    opacity: 1;
+    opacity: 0.3;
 }
 
 header{
