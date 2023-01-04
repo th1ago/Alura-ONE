@@ -14,6 +14,7 @@ body {
     text-align: center;
     font-size: 2em;
     margin: 0 0 1em;
+    color: rgba(0,0,0,0.3);
  }
 
 .principal {
@@ -41,6 +42,11 @@ body {
     margin: 0 20px 0 20px;
 }
 
+.beneficios {
+    background: #888888;
+    padding: 3em 0;
+}
+
 .conteudo-beneficio{
     width: 640px;
     margin: 0 auto;
@@ -54,6 +60,12 @@ body {
 
 .imgbeneficio {
     width: 60%;
+    opacity: 0.5;
+    transition: 400ms;
+}
+
+.imgbeneficio:hover{
+    opacity: 1;
 }
 
 header{
@@ -102,15 +114,6 @@ nav a:hover{
     content: "★";
 }
 
-.beneficios {
-    background: #888888;
-    padding: 3em 0;
-}
-
-.imgbeneficio{
-    width: 50%;
-}
-
 .mapa-conteudo{
     width: 940px;
     margin: 0 auto;
@@ -127,7 +130,7 @@ nav a:hover{
 }
 
 .video {
-    width: 560px;
+    width: 620px;
     margin: 2em auto;
 }
 
