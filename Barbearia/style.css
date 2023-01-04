@@ -59,14 +59,14 @@ body {
     vertical-align: top;
 }
 
-.imgbeneficio {
+.img-beneficio {
     width: 60%;
     opacity: 1;
     transition: 400ms;
     box-shadow: 10px 10px 10px 0 #000000;
 }
 
-.imgbeneficio:hover{
+.img-beneficio:hover{
     opacity: 0.3;
 }
 
@@ -140,4 +140,23 @@ footer {
     background: url("imagens/bg.jpg");
     text-align: center;
     padding: 40px 0;
+}
+
+
+@media screen and (max-width: 480px) { 
+    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
+        width: auto;
+    }
+
+    h1 {
+        text-align: center;
+    }
+
+    nav {
+        position:static;
+    }
+
+    .lista-beneficios, .img-beneficio{
+        width: 100%
+    }
 }
