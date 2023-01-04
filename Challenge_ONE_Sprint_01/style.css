@@ -1,46 +1,11 @@
-.body {
-    position: relative;
-    width: 840px;
-    margin: 15px 15px;
+.logo {
+    width: 300px;
+    margin: 1em 0;
 }
 
-.card {
-    display: block;
-    position: relative;
-    text-align: center;
-    box-sizing: border-box;
-    border: 2px solid black;
-    height: 944px;
-    width: 400px;
-    left: 1000px;
-    top: 40px;
-    border-radius: 32px;
-}
-
-.card p {
-    top: 200px;
-    position: relative;
-}
-
-form {
-    margin: 40px 0;
-}
-
-form label {
-    display: block;
-    font-size: 20px;
-    margin: 0 0 10px;
-}
-
-form input{
-    display: block;
-    margin: 0 0 10px;
-    padding: 10px 15px;
-    width: 50%;
-}
-
-footer {
-    text-align: center;
+.corpo {
+    width: 564px;
+    margin: 250px 300px;
 }
 
 .btn {
@@ -63,4 +28,27 @@ footer {
 
 textarea {
     border: none;
+}
+
+.card {
+    position: absolute;
+    text-align: center;
+    box-sizing: border-box;
+    border: 2px solid black;
+    height: 944px;
+    width: 400px;
+    left: 1000px;
+    top: 40px;
+    border-radius: 32px;
+}
+
+.card > img {
+    margin: 5em 0;
+}
+
+
+footer {
+    position:absolute;
+    margin: 400px 300px;
+    text-align: center;
 }
