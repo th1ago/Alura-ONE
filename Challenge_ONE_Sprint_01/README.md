@@ -3,4 +3,4 @@
 ### Challenge ONE Sprint 01:
 Construa um decodificador de texto com Javascript
 
-![ONE badge] (imagem/1badge.png)
+![ONE badge](imagem/1badge.png)
