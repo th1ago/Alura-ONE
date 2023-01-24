@@ -7,8 +7,6 @@ function criptografa() {
 
     document.getElementById('card').innerHTML = '<textarea readonly id="output-texto">' + crypto + 
     '</textarea>' + '<button class="btn-copiar" id="copiar" onclick="copiar()">Copiar</button>'
-
-    console.log(crypto);
 }
 
 function descriptografa(){
@@ -25,6 +23,4 @@ function copiar() {
 
     copia.select();
     document.execCommand("copy");
-
-    console.log(copia);
 }
