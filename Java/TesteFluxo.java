@@ -1,8 +1,11 @@
 public class TesteFluxo {
     public static void main(String[] args) {
         int contador = 0;
-        while(contador > 10){
+        int total = 0;
+        while(contador <= 10){
+            total += contador;
             System.out.println(contador);
+            System.out.println(total);
             contador++;
         }
     }
