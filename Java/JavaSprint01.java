@@ -7,6 +7,11 @@ public class JavaSprint01 {
         return 9 * c / 5 + 32;
     }
 
+    // 0 °C + 273,15 = 273,15 K
+    static double conversorCelsiusKelvin(double c) {
+        return c + 273.15;
+    }
+
     public static void main(String[] args) {
         Object[] possibleValues = {"Moeda", "Temperatura"};
         Object conversor = JOptionPane.showInputDialog(null,
