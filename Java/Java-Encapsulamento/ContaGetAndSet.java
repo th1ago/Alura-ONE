@@ -38,7 +38,16 @@ public class ContaGetAndSet {
         return this.agencia;
     }
 
+    public ClienteGetAndSet getTitular() { 
+        return this.titular;
+    }
+
+
     public void setNumero(int novoNumero) { 
         this.numero = novoNumero;
-    }    
+    }
+
+    public void setTitular(ClienteGetAndSet titular) { 
+        this.titular = titular;
+    }
 }
