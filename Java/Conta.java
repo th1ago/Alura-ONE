@@ -7,4 +7,13 @@ public class Conta {
     void deposita(float valor){
         this.saldo += this.saldo + valor;
     }
+
+    boolean saca(float valor){
+        if(this.saldo >= valor){
+            this.saldo = this.saldo - valor;
+            return true;
+        } else {
+            return false;
+        }
+    }
 }
