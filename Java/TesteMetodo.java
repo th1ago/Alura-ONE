@@ -1,4 +1,3 @@
-package Banco;
 public class TesteMetodo {
     public static void main(String[] args) {
         Conta contaThiago = new Conta();

@@ -1,4 +1,4 @@
-package Banco;
+
 public class Conta {
     float saldo;
     int agencia;

@@ -1,4 +1,4 @@
-package Exercicios;
+
 public class TesteFluxo {
     public static void main(String[] args) {
         int contador = 0;
