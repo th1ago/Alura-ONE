@@ -17,7 +17,7 @@ public class ContaGetAndSet {
         }
     }
 
-    boolean transfere(float valor, Conta destino){
+    boolean transfere(float valor, ContaGetAndSet destino){
         if(this.saldo >= valor){
             this.saldo -= valor;
             destino.deposita(valor);
