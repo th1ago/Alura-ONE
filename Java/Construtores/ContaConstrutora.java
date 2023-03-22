@@ -1,5 +1,3 @@
-package Java.Construtores;
-
 public class ContaConstrutora {
     private double saldo;
     private int agencia;

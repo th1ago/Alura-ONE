@@ -1,5 +1,3 @@
-package Java.Construtores;
-
 public class TestConstrutora {
     public static void main(String[] args) {
         ContaConstrutora conta = new ContaConstrutora(1234, 1111);

@@ -1,5 +1,3 @@
-package Java.Construtores;
-
 public class ClienteContrutora {
     private String nome;
     private String cpf;
