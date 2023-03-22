@@ -2,8 +2,7 @@
     "java.project.sourcePaths": [
         "Java OO",
         "Exercicios",
-        "Encapsulamento",
-        "Desafio",
-        "Construtores"
+        "Construtores",
+        "bytebank"
     ]
 }
