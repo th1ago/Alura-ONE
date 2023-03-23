@@ -5,8 +5,9 @@
 public class Funcionario {
     private String nome;
     private String cpf;
-    private double salario;
-
+    // visivel somente para os filhos
+    protected double salario;
+    
     public double getBonificacao(){
         return this.salario * 0.1;
      }

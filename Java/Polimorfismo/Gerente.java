@@ -1,5 +1,5 @@
-public class Gerente extends Funcionario{
-    
+public class Gerente extends Funcionario {
+
     private int senha;
 
     public void setSenha(int senha) {
@@ -12,5 +12,11 @@ public class Gerente extends Funcionario{
         } else {
             return false;
         }
+    }
+
+    public double getBonificacao() {
+        // atributo da super classe
+        // return super.salario * 0.1;
+        return getSalario();
     }
 }
