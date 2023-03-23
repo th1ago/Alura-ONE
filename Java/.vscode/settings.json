@@ -1,9 +1,10 @@
 {
     "java.project.sourcePaths": [
         "bytebank",
+        "Polimorfismo",
         "Java OO",
         "Exercicios",
         "Construtores",
-        "Polimorfismo"
+        "Heranca"
     ]
 }
