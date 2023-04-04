@@ -1,10 +1,12 @@
 {
     "java.project.sourcePaths": [
         "bytebank",
+        "Desafio",
         "Polimorfismo",
         "Java OO",
         "Exercicios",
         "Construtores",
         "Heranca"
-    ]
+    ],
+    "totvsLanguageServer.welcomePage": false
 }
